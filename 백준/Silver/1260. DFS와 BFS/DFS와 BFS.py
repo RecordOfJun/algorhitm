@@ -1,4 +1,6 @@
+import sys
 from collections import deque
+input = sys.stdin.readline
 def bfs(n,v):
     arr_check=[0 for _ in range(n+1)]
     queue=deque()
